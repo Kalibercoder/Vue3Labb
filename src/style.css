@@ -1,0 +1,137 @@
+/* General Styling */
+body {
+  background-color: #5a5a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.about-div {
+  height: 50vh;
+  width: 70vw;
+  background-color: white;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border: 3px solid black;
+  box-shadow: 3px 3px;
+  border-radius: 4px;
+}
+nav,
+footer {
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.596);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+}
+footer {
+  margin-top: 2vh;
+}
+.value-box {
+  background-color: white;
+  height: 40vh;
+  width: 70vw;
+  margin-top: 5vh;
+  border: 3px solid black;
+  box-shadow: 3px 3px;
+  border-radius: 4px;
+}
+.chart-box {
+  background-color: white;
+  border: 3px solid black;
+  width: 70vw;
+  box-shadow: 3px 3px;
+  border-radius: 4px;
+  margin-top: 5vh;
+}
+.value-box,
+.about-div {
+  overflow-y: auto;
+}
+.about-div {
+  text-align: center;
+}
+
+pre {
+  text-align: left;
+  margin-left: 10px;
+  font-size: large;
+}
+/* End of general styling */
+
+/* Text Style */
+input[type='text'] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 3px solid black;
+  box-shadow: 3px 3px;
+}
+.router-link {
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 1000;
+  color: black;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-size: larger;
+  margin: 20px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 1000;
+  color: black;
+}
+a:hover {
+  color: #4caf50;
+  transition: 0.7s;
+}
+
+/* End of text style */
+/* Button styling */
+button {
+  background-color: #4caf50;
+  font-weight: 1000;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 0px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 3px solid black;
+  box-shadow: 3px 3px;
+}
+
+button:hover {
+  background-color: #67cf6c;
+}
+.button-router {
+  background-color: #4caf50;
+  border: none;
+  border: 3px solid black;
+  box-shadow: 3px 3px;
+  width: 20vw;
+
+  margin: 5vw;
+}
+/* End of button style */
